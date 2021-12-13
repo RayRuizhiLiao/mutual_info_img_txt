@@ -18,7 +18,7 @@ print(current_dir)
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--image_dir', type=str,
-					default='/data/vision/polina/scratch/ruizhi/chestxray/data/png_16bit_256/',
+					default=os.path.join(current_dir, 'example_data/images/'),
 					help='The image data directory')
 parser.add_argument('--text_data_dir', type=str,
                     default=os.path.join(current_dir, 'example_data/text/'),
@@ -29,14 +29,10 @@ parser.add_argument('--bert_pretrained_dir', type=str,
 parser.add_argument('--bert_config_name',
                     default='bert_config.json', help='Bert model config file')
 parser.add_argument('--save_dir', type=str,
-                    default='/data/vision/polina/scratch/ruizhi/chestxray/experiments/post_miccai2021/'\
-                    'unsupervised_image_report/')
+                    default=os.path.join(current_dir, 'save_dir'))
 parser.add_argument('--dataset_metadata', type=str,
-                    default=os.path.join(current_dir, 'data/training_chexpert.csv'),
+                    default=os.path.join(current_dir, 'example_data/training_chexpert_mini.csv'),
                     help='The metadata for the model training ')
-parser.add_argument('--label_key', type=str,
-                    default='Edema',
-                    help='The supervised task (the key of the corresponding label column)')
 
 parser.add_argument('--batch_size', default=8, type=int,
                     help='Mini-batch size')

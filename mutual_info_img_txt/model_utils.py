@@ -46,7 +46,6 @@ class CXRImageReportDataset(torchvision.datasets.VisionDataset):
             This metadata file should contain data IDs that are used to
             load images and labels associated with data IDs.
         data_key (string): The name of the column that has image IDs.
-        label_key (string): The name of the column that has labels.
         transform (callable, optional): A function/tranform that takes in an image 
             and returns a transfprmed version.
     """

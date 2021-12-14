@@ -1,4 +1,4 @@
-name: mi_img_txt
+name: mutual_info_img_txt
 channels:
   - defaults
 dependencies:
@@ -52,5 +52,3 @@ dependencies:
     - typing_extensions==4.0.1
     - urllib3==1.26.7
     - zipp==3.6.0
-prefix: /data/vision/polina/shared_software/anaconda3-4.3.1/envs/mi_img_txt
-

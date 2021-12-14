@@ -30,7 +30,7 @@ Train the model in an unsupervised fashion, i.e., only the first term in [Eq (2)
 python train_img_txt.py
 ```
 
-When you first time run model training, it may take a while to tokenize the text. Afterwards, this process won't be repeated and the tokenized data will be saved for reuse. 
+When you run model training for the first time, it may take a while to tokenize the text. Afterwards, this process won't be repeated and the tokenized data will be saved for reuse. 
 
 # Notes on Data
 

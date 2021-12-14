@@ -24,7 +24,7 @@ Download the pre-trained BERT model, tokenizer, etc. from [`Dropbox`](https://ww
 
 ## Model training
 
-Train the model in an unsupervised fashion, i.e., only the first term in [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf) is optimized:
+Train the model in an unsupervised fashion, i.e., optimizing [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf):
 
 ```
 python train_img_txt.py

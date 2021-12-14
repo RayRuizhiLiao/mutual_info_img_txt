@@ -10,12 +10,17 @@ This repo is a work-in-progress. As of now, we have released the code for joint 
 
 # Instructions
 
-## Setup
+## Conda environment
 
 Set up the conda environment using [`conda_environment.yml`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/main/conda_environment.yml):
 ```
 conda env create -f conda_environment.yml
 ```
+
+## BERT
+
+
+
 ## Training
 
 Train the model in an unsupervised fashion, i.e., only the first term in [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf) is optimized:

@@ -1,4 +1,4 @@
-name: chestxray_joint_new
+name: mutual_info_img_txt
 channels:
   - pytorch
   - conda-forge
@@ -192,5 +192,3 @@ dependencies:
     - urllib3==1.25.6
     - wasabi==0.7.0
     - zipp==3.1.0
-prefix: /data/vision/polina/shared_software/anaconda3-4.3.1/envs/chestxray_joint_new
-

@@ -19,7 +19,7 @@ conda env create -f conda_environment.yml
 
 ## BERT
 
-Download the pre-trained BERT model, tokenizer, etc. from [`Dropbox`](). You should download the folder *bert_pretrain_all_notes_150000* that contains seven files. The path to *bert_pretrain_all_notes_150000* should be passed to [`--bert_pretrained_dir`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/80d0c32e3625ef545cf2135beb0108847c113e4c/train_img_txt.py#L26)
+Download the pre-trained BERT model, tokenizer, etc. from [`Dropbox`](https://www.dropbox.com/sh/snp8lr2afsgeb04/AACWNzsHSWksJGIWgp6P_T4ca?dl=0). You should download the folder *bert_pretrain_all_notes_150000* that contains seven files. The path to *bert_pretrain_all_notes_150000* should be passed to [`--bert_pretrained_dir`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/80d0c32e3625ef545cf2135beb0108847c113e4c/train_img_txt.py#L26).
 
 
 ## Training

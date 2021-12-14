@@ -12,7 +12,7 @@ This repo is a work-in-progress. As of now, we have released the code for joint 
 
 ## Setup
 
-Set up the conda environment using [`conda_environment.yml`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/conda_environment.yml):
+Set up the conda environment using [`conda_environment.yml`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/main/conda_environment.yml):
 ```
 conda env create -f conda_environment.yml
 ```

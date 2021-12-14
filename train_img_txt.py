@@ -40,7 +40,7 @@ parser.add_argument('--num_train_epochs', default=100, type=int,
                     help='Number of training epochs')
 parser.add_argument('--mi_estimator', type=str,
                     default='infonce',
-                    help='Mutual information estimator (variational bound)')
+                    help='Mutual information estimator (variational bound): dv or infonce')
 parser.add_argument('--init_lr', default=5e-4, type=float, 
                     help='Intial learning rate')
 

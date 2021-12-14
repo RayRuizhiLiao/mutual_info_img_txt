@@ -32,6 +32,7 @@ python train_img_txt.py
 
 When you run model training for the first time, it may take a while to tokenize the text. Afterwards, this process won't be repeated and the tokenized data will be saved for reuse. 
 
+
 # Notes on Data
 
 ## MIMIC-CXR
@@ -39,6 +40,9 @@ When you run model training for the first time, it may take a while to tokenize 
 We have experimented this algorithm on [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/), which is a large publicly available dataset of chest x-ray images with free-text radiology reports. The dataset contains 377,110 images corresponding to 227,835 radiographic studies performed at the Beth Israel Deaconess Medical Center in Boston, MA.
 
 ## Example data
+
+We provide 16 example image-text pairs to test the code, listed in [`training_chexpert_mini.csv`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/main/example_data/training_chexpert_mini.csv).
+
 
 # Contact
 

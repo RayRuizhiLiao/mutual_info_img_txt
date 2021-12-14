@@ -3,7 +3,7 @@
 Joint learning of images and text via maximization of mutual information.
 
 This repository incorporates the algorithms presented in <br />
-Ruizhi Liao, Daniel Moyer, Miriam Cha, Keegan Quigley, Seth Berkowitz, Steven Horng, Polina Golland, William M Wells. [Multimodal Representation Learning via Maximization of Local Mutual Information.](https://arxiv.org/pdf/2103.04537.pdf) *International Conference on Medical Image Computing and Computer-Assisted Intervention*, 2021. <br />
+Ruizhi Liao, Daniel Moyer, Miriam Cha, Keegan Quigley, Seth Berkowitz, Steven Horng, Polina Golland, William M Wells. [`Multimodal Representation Learning via Maximization of Local Mutual Information`](https://arxiv.org/pdf/2103.04537.pdf). *International Conference on Medical Image Computing and Computer-Assisted Intervention*, 2021. <br />
 
 This repo is a work-in-progress. As of now, we have released the code for joint representation learning of images and text by maximizing the mutual information between the feature embeddings of the two modalities. We demonstrate its application in learning from chest radiographs and radiology reports.
 
@@ -24,7 +24,7 @@ Download the pre-trained BERT model, tokenizer, etc. from [`Dropbox`](https://ww
 
 ## Model training
 
-Train the model in an unsupervised fashion, i.e., optimizing [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf):
+Train the model in an unsupervised fashion, i.e., optimizing [`Eq (2)`](https://arxiv.org/pdf/2103.04537.pdf):
 
 ```
 python train_img_txt.py
@@ -37,7 +37,7 @@ When you run model training for the first time, it may take a while to tokenize 
 
 ## MIMIC-CXR
 
-We have experimented this algorithm on [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/), which is a large publicly available dataset of chest x-ray images with free-text radiology reports. The dataset contains 377,110 images corresponding to 227,835 radiographic studies performed at the Beth Israel Deaconess Medical Center in Boston, MA.
+We have experimented this algorithm on [`MIMIC-CXR`](https://physionet.org/content/mimic-cxr/2.0.0/), which is a large publicly available dataset of chest x-ray images with free-text radiology reports. The dataset contains 377,110 images corresponding to 227,835 radiographic studies performed at the Beth Israel Deaconess Medical Center in Boston, MA.
 
 ## Example data
 

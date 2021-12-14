@@ -12,8 +12,10 @@ This repo is a work-in-progress. As of now, we have released the code for joint 
 
 ## Setup
 
-Set up the conda environment using [`conda_environment.yml`](https://github.com/RayRuizhiLiao/joint_chestxray/blob/master/conda_environment.yml). You might want to remove the pip dependencies if that is creating an issue for you. You can manually install the spacy and scispacy dependencies using `pip install spacy` and `pip install scispacy`. Read [`https://allenai.github.io/scispacy/`](https://allenai.github.io/scispacy/) for more information on scispacy. 
-
+Set up the conda environment using [`conda_environment.yml`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/conda_environment.yml):
+```
+conda env create -f conda_environment.yml
+```
 ## Training
 
 Train the model in an unsupervised fashion, i.e., only the first term in [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf) is optimized:

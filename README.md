@@ -22,13 +22,15 @@ conda env create -f conda_environment.yml
 Download the pre-trained BERT model, tokenizer, etc. from [`Dropbox`](https://www.dropbox.com/sh/snp8lr2afsgeb04/AACWNzsHSWksJGIWgp6P_T4ca?dl=0). You should download the folder *bert_pretrain_all_notes_150000* that contains seven files. The path to *bert_pretrain_all_notes_150000* should be passed to [`--bert_pretrained_dir`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/80d0c32e3625ef545cf2135beb0108847c113e4c/train_img_txt.py#L26).
 
 
-## Training
+## Model Training
 
 Train the model in an unsupervised fashion, i.e., only the first term in [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf) is optimized:
 
 ```
 python train_img_txt.py
 ```
+
+When you first time run model training, it may take a while to tokenize the text. Afterwards, this process won't be repeated and the tokenized data will be saved. 
 
 # Notes on Data
 

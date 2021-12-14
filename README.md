@@ -22,7 +22,7 @@ conda env create -f conda_environment.yml
 Download the pre-trained BERT model, tokenizer, etc. from [`Dropbox`](https://www.dropbox.com/sh/snp8lr2afsgeb04/AACWNzsHSWksJGIWgp6P_T4ca?dl=0). You should download the folder *bert_pretrain_all_notes_150000* that contains seven files. The path to *bert_pretrain_all_notes_150000* should be passed to [`--bert_pretrained_dir`](https://github.com/RayRuizhiLiao/mutual_info_img_txt/blob/80d0c32e3625ef545cf2135beb0108847c113e4c/train_img_txt.py#L26).
 
 
-## Model Training
+## Model training
 
 Train the model in an unsupervised fashion, i.e., only the first term in [Eq (2)](https://arxiv.org/pdf/2103.04537.pdf) is optimized:
 
@@ -37,6 +37,8 @@ When you first time run model training, it may take a while to tokenize the text
 ## MIMIC-CXR
 
 We have experimented this algorithm on [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/), which is a large publicly available dataset of chest x-ray images with free-text radiology reports. The dataset contains 377,110 images corresponding to 227,835 radiographic studies performed at the Beth Israel Deaconess Medical Center in Boston, MA.
+
+## Example data
 
 # Contact
 

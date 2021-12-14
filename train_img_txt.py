@@ -49,7 +49,7 @@ parser.add_argument('--max_seq_length', default=320, type=int,
 parser.add_argument('--img_size', default=256, type=int,
                     help='The size of the input image')
 parser.add_argument('--output_channels', default=1, type=int,
-                    help='The number of ouput channels')
+                    help='The number of ouput channels for the classifier')
 parser.add_argument('--image_model_name', default='resnet256_6_2_1', type=str,
                     help='Neural network architecture to be used for image model')
 
